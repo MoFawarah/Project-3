@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #F5F5F5;
+}
+
+#homepageContainter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: stretch;
+    margin: 1.5em 0;
+}
+#introImage, #introText{
+    width: 45%;
+    overflow: hidden;
+    border-radius: 15px;
+    /* box-shadow: 0 0 1em 0.01em #003366; */
+    margin: 0.5em;
+}
+#introImage img {
+    width: 100%;
+}
+#introText {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.5em;
+    background-color: #003366;
+    color: #F5F5F5;
+}
+#introText h1, #introText p{
+    margin: 0.7em 0;
+}
+#introText h1{
+    color: #ffa726;
+}
+
+#servicesContainter {
+    margin: 10em 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card {
+    border-radius: 15px;
+    margin: 1em 0;
+}
+.card-img-top {
+    border-radius: 15px 15px 0 0;
+}
+.btn-primary {
+    background-color: #003366;
+    border: #003366;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 426px) {
+ 
+
+    #introText { 
+        height: 290px;
+    }
+
+    #introText h1 {
+      
+        font-size: 2em;
+    }
+
+  #introText p {
+      font-size: 0.8em; }
+
+ #introImage img {
+        width: 100%;
+        height: 290px;
+    }
+
+    #servicesContainter {
+        margin: 5em 0; }
+
+
+     #footerLogo {
+            width: 8em !important;
+        }
+
+    #footerLinksCon a {
+     
+            font-size: 0.7em;
+        }
+
+        #copyright p {
+            
+            font-size: 0.8em;
+        }
+
+}
