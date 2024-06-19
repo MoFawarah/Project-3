@@ -151,7 +151,9 @@ registerButton.addEventListener('click', function () {
             gender: '',
             hrID : '',
             isLoggedIn: true,
-            phoneNumber : ''
+            phoneNumber : '',
+            dateOfJoining : '',
+            imageSrc : ''
         };
         usersRegistered.push(user);
         localStorage.setItem('users', JSON.stringify(usersRegistered));
